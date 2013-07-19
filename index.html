@@ -41,10 +41,23 @@
 								<li><a class="twitter external" href="https://twitter.com/#!/mangrove">twitter_text</a></li>
 							</ul>
 						</nav>
-						<div class="language-switch">
-							<ul>
-								<li><a id="lang-nl" class="active" href="http://www.mangrove.com/nl">NL</a></li>
-							</ul>
+						<div>
+							<div class="filter-search">
+								<select>
+									<option>Vilnius</option>
+									<option>Kaunas</option>
+									<option>Klaipeda</option>
+									<option>Siauliai</option>
+									<option>Panevezys</option>
+								</select>
+								<div class="searchbox">
+									<form action="/en/result" method="get">
+										<input type="hidden" name="form" value="search"/>
+										<label for="searchstring">search</label><input class="searchstring" type="text" name="searchstring" placeholder="I&#039;m looking for.."/>
+										<input class="searchbutton" type="submit" value="go_search"/>
+									</form>
+								</div>
+							</div>
 						</div>
 					</div>
 					<hr>
