@@ -164,8 +164,8 @@ hr {
 	margin-left: 5px;
 	width: 97%;
 	padding: 15px 5px;
-	border: 1px solid #075368;
-	background: url(../images/search_background.png) top left repeat-x;
+	/*border: 1px solid #075368;*/
+	/*background: url(../images/search_background.png) top left repeat-x;*/
 	float:left;
 }
 .social-box .share-twitter,.social-box .share-gplus,.social-box .share-linkedin,.social-box .share-fb {
