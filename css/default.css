@@ -1025,7 +1025,7 @@ div.searchbox  input.searchstring {
 	color:#fff;
 	background:transparent;
 	position:absolute;
-	top:7px;
+	top:5px;
 	left:11px
 }
 div.searchbox  input.searchbutton {
@@ -2412,4 +2412,29 @@ p.message.error {
 }
 .pagination .pagination_wrap .pagination_center .prevnext {
 	float:left
+}
+
+.catagery {
+	width: 180px;
+	float: left;
+	font-size: 14px;
+	padding: 12px;
+	line-height: 22px;
+	margin-right: 20px;
+	/*background: #fff;*/
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	-ms-border-radius:12px;
+	-o-border-radius:12px;
+	border-radius:12px;
+	background: url(../images/icon-timeline-case.png) no-repeat;
+	background-position:top right;
+}
+
+.cat_header {
+	color: #0099b5;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	
 }

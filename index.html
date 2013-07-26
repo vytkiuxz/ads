@@ -46,8 +46,8 @@
 											<input class="searchstring" type="text" name="searchstring" placeholder="I&#039;m looking for.."/>
 											<input class="searchbutton" type="submit" value="go_search"/>
 										</div>
-										<div  class="searchbox">
-											<select data-placeholder="Choose a Country..." class="chzn-select" style="width:150px; float:right;" >
+										<div  class="searchbox" style="padding-top:4px; padding-left: 12px;">
+											<select data-placeholder="Choose a Country..." class="chzn-select" style="width:170px;" >
 												<option value=""></option> 
 												<option value="United States">United States</option> 
 												<option value="United Kingdom">United Kingdom</option> 
@@ -228,7 +228,7 @@
 
 	
 	<script type="text/javascript">
-		$(".chzn-select").chosen();
+		$(".chzn-select").chosen({allow_single_deselect: true});
 	</script>
 	
 
